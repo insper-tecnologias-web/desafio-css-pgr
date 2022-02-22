@@ -101,3 +101,50 @@ body {
   display: flex;
   justify-content: center;
 }
+.appbar {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background-color: #f7d736;
+  padding: 7px;
+  width: 100%;
+  display: inherit;
+  border-radius: 2px;
+  box-shadow: 0px 1px 6px;
+  height: 30px;
+}
+
+.logo {
+  height: 30px;
+  padding-top: 2px;
+  float: left;
+}
+
+.subtitle {
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.form-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.autoresize {
+  resize: none;
+}
+
+.form-card-title {
+  font-weight: bold;
+}
+
+.form-card-title, .autoresize {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-bottom: 3px;
+}
