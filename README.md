@@ -1,10 +1,11 @@
 # Tecnologias Web
 
-DUPLA:
+TRIO:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
+- Guilherme Fontana Louro
+- Ricardo Ribeiro Rodrigues
+- Pedro Altobelli Teixeira Pinto
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-pgr/
 
 ## Desafio CSS
 
