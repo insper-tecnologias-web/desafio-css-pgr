@@ -46,6 +46,10 @@ body {
   transition: background-color 0.3s;
 }
 
+.btn > * {
+  position: relative;
+}
+
 .btn:before {
   content: "";
 
@@ -98,3 +102,28 @@ body {
   margin-top: 1%;
   margin-left: 1%;
 }
+
+.form-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.autoresize {
+  resize: none;
+}
+
+.form-card-title {
+  font-weight: bold;
+}
+
+.form-card-title, .autoresize {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-bottom: 3px;
+}
+
