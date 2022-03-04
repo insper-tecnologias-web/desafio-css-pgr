@@ -30,6 +30,7 @@ body {
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 .btn {
+  font-weight: bold;
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -80,29 +81,41 @@ body {
 }
 
 .card-container {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  flex-grow: 1;
 }
 
 .card {
   /* margin:  1%; */
   margin-top: 1%;
-  background-color: rgb(151, 151, 172);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border-radius: 2px;
-  width: 12%;
+  width: 14%;
+  font-family: 'Permanent Marker', cursive;
   padding: 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card-title {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 .card-content {
   margin-top: 10%;
+  /* height: 80%; */
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
 }
 .appbar {
   font-family: "Roboto", sans-serif;
@@ -110,32 +123,37 @@ body {
   background-color: #f7d736;
   padding: 7px;
   width: 100%;
-  display: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-radius: 2px;
-  box-shadow: 0px 1px 6px;
-  height: 30px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 60px;
 }
 
 .logo {
-  height: 30px;
+  height: 45px;
   padding-top: 2px;
   float: left;
 }
 
 .subtitle {
+  font-weight: bold;
   float: left;
   margin-top: 1%;
   margin-left: 1%;
+  padding-bottom: 0.6rem;
 }
 
 .form-card {
   background: #fff;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 32%;
   padding: 10px;
   border-radius: 4px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 4px 10px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 1%;
 }
 
 .autoresize {
@@ -144,6 +162,8 @@ body {
 
 .form-card-title {
   font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 0.6rem;
 }
 
 .form-card-title, .autoresize {
